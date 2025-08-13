@@ -1,7 +1,4 @@
-
-// Simple in-memory queue & sessions.
-// NOTE: This resets on redeploy. Use Redis for production.
-
+// In-memory queue & sessions (resets on redeploy).
 export type QueueItem = {
   queueId: string;
   jobId: string;
